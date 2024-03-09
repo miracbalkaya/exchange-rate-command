@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="isokur.xsl"?>
+<Tarih_Date Bulten_No="2024/45" Date="03/04/2024" Tarih="04.03.2024">
+    <Currency CurrencyCode="USD">
+        <Unit>1</Unit>
+        <ForexBuying>31.5457</ForexBuying>
+        <ForexSelling>31.6025</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="AUD">
+        <Unit>1</Unit>
+        <ForexBuying>20.4145</ForexBuying>
+        <ForexSelling>20.5476</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="DKK">
+        <Unit>1</Unit>
+        <ForexBuying>4.5841</ForexBuying>
+        <ForexSelling>4.6067</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="EUR">
+        <Unit>1</Unit>
+        <ForexBuying>34.2228</ForexBuying>
+        <ForexSelling>34.2845</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="GBP">
+        <Unit>1</Unit>
+        <ForexBuying>39.9311</ForexBuying>
+        <ForexSelling>40.1392</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="CHF">
+        <Unit>1</Unit>
+        <ForexBuying>35.527</ForexBuying>
+        <ForexSelling>35.7551</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="SEK">
+        <Unit>1</Unit>
+        <ForexBuying>3.0223</ForexBuying>
+        <ForexSelling>3.0536</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="CAD">
+        <Unit>1</Unit>
+        <ForexBuying>23.1782</ForexBuying>
+        <ForexSelling>23.2827</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="KWD">
+        <Unit>1</Unit>
+        <ForexBuying>101.9664</ForexBuying>
+        <ForexSelling>103.3006</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="NOK">
+        <Unit>1</Unit>
+        <ForexBuying>2.9748</ForexBuying>
+        <ForexSelling>2.9948</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="SAR">
+        <Unit>1</Unit>
+        <ForexBuying>8.4113</ForexBuying>
+        <ForexSelling>8.4264</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="JPY">
+        <Unit>100</Unit>
+        <ForexBuying>20.9193</ForexBuying>
+        <ForexSelling>21.0578</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="BGN">
+        <Unit>1</Unit>
+        <ForexBuying>17.3993</ForexBuying>
+        <ForexSelling>17.6269</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="RON">
+        <Unit>1</Unit>
+        <ForexBuying>6.8446</ForexBuying>
+        <ForexSelling>6.9341</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="RUB">
+        <Unit>1</Unit>
+        <ForexBuying>0.34395</ForexBuying>
+        <ForexSelling>0.34845</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="IRR">
+        <Unit>100</Unit>
+        <ForexBuying>0.07469</ForexBuying>
+        <ForexSelling>0.07567</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="CNY">
+        <Unit>1</Unit>
+        <ForexBuying>4.3573</ForexBuying>
+        <ForexSelling>4.4143</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="PKR">
+        <Unit>1</Unit>
+        <ForexBuying>0.11232</ForexBuying>
+        <ForexSelling>0.11379</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="QAR">
+        <Unit>1</Unit>
+        <ForexBuying>8.6025</ForexBuying>
+        <ForexSelling>8.715</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="KRW">
+        <Unit>1</Unit>
+        <ForexBuying>0.0235</ForexBuying>
+        <ForexSelling>0.02381</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="AZN">
+        <Unit>1</Unit>
+        <ForexBuying>18.4523</ForexBuying>
+        <ForexSelling>18.6937</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="AED">
+        <Unit>1</Unit>
+        <ForexBuying>8.5409</ForexBuying>
+        <ForexSelling>8.6526</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="XDR">
+        <Unit>1</Unit>
+        <ForexBuying>41.9399</ForexBuying>
+        <ForexSelling>0.0</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="USD">
+        <Unit>1</Unit>
+        <ForexBuying>31.8618</ForexBuying>
+        <ForexSelling>31.9192</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="AUD">
+        <Unit>1</Unit>
+        <ForexBuying>21.1075</ForexBuying>
+        <ForexSelling>21.2452</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="DKK">
+        <Unit>1</Unit>
+        <ForexBuying>4.6673</ForexBuying>
+        <ForexSelling>4.6902</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="EUR">
+        <Unit>1</Unit>
+        <ForexBuying>34.8478</ForexBuying>
+        <ForexSelling>34.9106</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="GBP">
+        <Unit>1</Unit>
+        <ForexBuying>40.7816</ForexBuying>
+        <ForexSelling>40.9942</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="CHF">
+        <Unit>1</Unit>
+        <ForexBuying>36.2582</ForexBuying>
+        <ForexSelling>36.491</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="SEK">
+        <Unit>1</Unit>
+        <ForexBuying>3.1052</ForexBuying>
+        <ForexSelling>3.1373</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="CAD">
+        <Unit>1</Unit>
+        <ForexBuying>23.6694</ForexBuying>
+        <ForexSelling>23.7761</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="KWD">
+        <Unit>1</Unit>
+        <ForexBuying>103.1467</ForexBuying>
+        <ForexSelling>104.4963</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="NOK">
+        <Unit>1</Unit>
+        <ForexBuying>3.0593</ForexBuying>
+        <ForexSelling>3.0799</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="SAR">
+        <Unit>1</Unit>
+        <ForexBuying>8.4951</ForexBuying>
+        <ForexSelling>8.5104</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="JPY">
+        <Unit>100</Unit>
+        <ForexBuying>21.5515</ForexBuying>
+        <ForexSelling>21.6942</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="BGN">
+        <Unit>1</Unit>
+        <ForexBuying>17.7171</ForexBuying>
+        <ForexSelling>17.9489</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="RON">
+        <Unit>1</Unit>
+        <ForexBuying>6.9723</ForexBuying>
+        <ForexSelling>7.0635</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="RUB">
+        <Unit>1</Unit>
+        <ForexBuying>0.34932</ForexBuying>
+        <ForexSelling>0.35389</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="IRR">
+        <Unit>100</Unit>
+        <ForexBuying>0.07544</ForexBuying>
+        <ForexSelling>0.07642</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="CNY">
+        <Unit>1</Unit>
+        <ForexBuying>4.4063</ForexBuying>
+        <ForexSelling>4.464</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="PKR">
+        <Unit>1</Unit>
+        <ForexBuying>0.11351</ForexBuying>
+        <ForexSelling>0.11499</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="QAR">
+        <Unit>1</Unit>
+        <ForexBuying>8.6887</ForexBuying>
+        <ForexSelling>8.8024</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="KRW">
+        <Unit>1</Unit>
+        <ForexBuying>0.02404</ForexBuying>
+        <ForexSelling>0.02435</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="AZN">
+        <Unit>1</Unit>
+        <ForexBuying>18.6372</ForexBuying>
+        <ForexSelling>18.8811</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="AED">
+        <Unit>1</Unit>
+        <ForexBuying>8.6263</ForexBuying>
+        <ForexSelling>8.7391</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="XDR">
+        <Unit>1</Unit>
+        <ForexBuying>42.5652</ForexBuying>
+        <ForexSelling>0.0</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="USD">
+        <Unit>1</Unit>
+        <ForexBuying>31.8618</ForexBuying>
+        <ForexSelling>31.9192</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="AUD">
+        <Unit>1</Unit>
+        <ForexBuying>21.1075</ForexBuying>
+        <ForexSelling>21.2452</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="DKK">
+        <Unit>1</Unit>
+        <ForexBuying>4.6673</ForexBuying>
+        <ForexSelling>4.6902</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="EUR">
+        <Unit>1</Unit>
+        <ForexBuying>34.8478</ForexBuying>
+        <ForexSelling>34.9106</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="GBP">
+        <Unit>1</Unit>
+        <ForexBuying>40.7816</ForexBuying>
+        <ForexSelling>40.9942</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="CHF">
+        <Unit>1</Unit>
+        <ForexBuying>36.2582</ForexBuying>
+        <ForexSelling>36.491</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="SEK">
+        <Unit>1</Unit>
+        <ForexBuying>3.1052</ForexBuying>
+        <ForexSelling>3.1373</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="CAD">
+        <Unit>1</Unit>
+        <ForexBuying>23.6694</ForexBuying>
+        <ForexSelling>23.7761</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="KWD">
+        <Unit>1</Unit>
+        <ForexBuying>103.1467</ForexBuying>
+        <ForexSelling>104.4963</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="NOK">
+        <Unit>1</Unit>
+        <ForexBuying>3.0593</ForexBuying>
+        <ForexSelling>3.0799</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="SAR">
+        <Unit>1</Unit>
+        <ForexBuying>8.4951</ForexBuying>
+        <ForexSelling>8.5104</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="JPY">
+        <Unit>100</Unit>
+        <ForexBuying>21.5515</ForexBuying>
+        <ForexSelling>21.6942</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="BGN">
+        <Unit>1</Unit>
+        <ForexBuying>17.7171</ForexBuying>
+        <ForexSelling>17.9489</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="RON">
+        <Unit>1</Unit>
+        <ForexBuying>6.9723</ForexBuying>
+        <ForexSelling>7.0635</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="RUB">
+        <Unit>1</Unit>
+        <ForexBuying>0.34932</ForexBuying>
+        <ForexSelling>0.35389</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="IRR">
+        <Unit>100</Unit>
+        <ForexBuying>0.07544</ForexBuying>
+        <ForexSelling>0.07642</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="CNY">
+        <Unit>1</Unit>
+        <ForexBuying>4.4063</ForexBuying>
+        <ForexSelling>4.464</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="PKR">
+        <Unit>1</Unit>
+        <ForexBuying>0.11351</ForexBuying>
+        <ForexSelling>0.11499</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="QAR">
+        <Unit>1</Unit>
+        <ForexBuying>8.6887</ForexBuying>
+        <ForexSelling>8.8024</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="KRW">
+        <Unit>1</Unit>
+        <ForexBuying>0.02404</ForexBuying>
+        <ForexSelling>0.02435</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="AZN">
+        <Unit>1</Unit>
+        <ForexBuying>18.6372</ForexBuying>
+        <ForexSelling>18.8811</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="AED">
+        <Unit>1</Unit>
+        <ForexBuying>8.6263</ForexBuying>
+        <ForexSelling>8.7391</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="XDR">
+        <Unit>1</Unit>
+        <ForexBuying>42.5652</ForexBuying>
+        <ForexSelling>0.0</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="USD">
+        <Unit>1</Unit>
+        <ForexBuying>31.8618</ForexBuying>
+        <ForexSelling>31.9192</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="AUD">
+        <Unit>1</Unit>
+        <ForexBuying>21.1075</ForexBuying>
+        <ForexSelling>21.2452</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="DKK">
+        <Unit>1</Unit>
+        <ForexBuying>4.6673</ForexBuying>
+        <ForexSelling>4.6902</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="EUR">
+        <Unit>1</Unit>
+        <ForexBuying>34.8478</ForexBuying>
+        <ForexSelling>34.9106</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="GBP">
+        <Unit>1</Unit>
+        <ForexBuying>40.7816</ForexBuying>
+        <ForexSelling>40.9942</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="CHF">
+        <Unit>1</Unit>
+        <ForexBuying>36.2582</ForexBuying>
+        <ForexSelling>36.491</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="SEK">
+        <Unit>1</Unit>
+        <ForexBuying>3.1052</ForexBuying>
+        <ForexSelling>3.1373</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="CAD">
+        <Unit>1</Unit>
+        <ForexBuying>23.6694</ForexBuying>
+        <ForexSelling>23.7761</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="KWD">
+        <Unit>1</Unit>
+        <ForexBuying>103.1467</ForexBuying>
+        <ForexSelling>104.4963</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="NOK">
+        <Unit>1</Unit>
+        <ForexBuying>3.0593</ForexBuying>
+        <ForexSelling>3.0799</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="SAR">
+        <Unit>1</Unit>
+        <ForexBuying>8.4951</ForexBuying>
+        <ForexSelling>8.5104</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="JPY">
+        <Unit>100</Unit>
+        <ForexBuying>21.5515</ForexBuying>
+        <ForexSelling>21.6942</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="BGN">
+        <Unit>1</Unit>
+        <ForexBuying>17.7171</ForexBuying>
+        <ForexSelling>17.9489</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="RON">
+        <Unit>1</Unit>
+        <ForexBuying>6.9723</ForexBuying>
+        <ForexSelling>7.0635</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="RUB">
+        <Unit>1</Unit>
+        <ForexBuying>0.34932</ForexBuying>
+        <ForexSelling>0.35389</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="IRR">
+        <Unit>100</Unit>
+        <ForexBuying>0.07544</ForexBuying>
+        <ForexSelling>0.07642</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="CNY">
+        <Unit>1</Unit>
+        <ForexBuying>4.4063</ForexBuying>
+        <ForexSelling>4.464</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="PKR">
+        <Unit>1</Unit>
+        <ForexBuying>0.11351</ForexBuying>
+        <ForexSelling>0.11499</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="QAR">
+        <Unit>1</Unit>
+        <ForexBuying>8.6887</ForexBuying>
+        <ForexSelling>8.8024</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="KRW">
+        <Unit>1</Unit>
+        <ForexBuying>0.02404</ForexBuying>
+        <ForexSelling>0.02435</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="AZN">
+        <Unit>1</Unit>
+        <ForexBuying>18.6372</ForexBuying>
+        <ForexSelling>18.8811</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="AED">
+        <Unit>1</Unit>
+        <ForexBuying>8.6263</ForexBuying>
+        <ForexSelling>8.7391</ForexSelling>
+    </Currency>
+    <Currency CurrencyCode="XDR">
+        <Unit>1</Unit>
+        <ForexBuying>42.5652</ForexBuying>
+        <ForexSelling>0.0</ForexSelling>
+    </Currency>
+</Tarih_Date>

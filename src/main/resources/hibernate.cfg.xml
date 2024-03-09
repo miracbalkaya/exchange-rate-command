@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/exchange_rate</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">password</property>
+        <property name="hibernate.show_sql">true</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        <property name="hibernate.current_session_context_class">thread</property>
+        <property name="hibernate.c3p0.timeout">0</property>
+        <mapping class="org.example.ExchangeRate" />
+        <mapping class="org.example.BanknoteRate" />
+        <mapping class="org.example.CrossRate" />
+        <mapping class="org.example.InformationRate" />
+        <mapping class="org.example.BaseEntity" />
+        <mapping class="org.example.RecordedFile"/>
+    </session-factory>
+</hibernate-configuration>
