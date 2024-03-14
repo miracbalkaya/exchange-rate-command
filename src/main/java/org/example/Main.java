@@ -1,10 +1,8 @@
 package org.example;
 
-import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -17,12 +15,13 @@ import org.w3c.dom.ProcessingInstruction;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-import java.io.FileWriter;
+import java.io.FileOutputStream;
 import java.io.IOException;
-import java.text.ParseException;
+import java.io.OutputStream;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
 import java.util.Date;
@@ -30,19 +29,20 @@ import java.util.List;
 
 public class Main {
     private static final Logger logger = LoggerFactory.getLogger(Main.class);
+
     public static void main(String[] args) {
         logger.info("Crawler Started");
 
         Configuration config = new Configuration();
         config.configure();
 
-        try (SessionFactory sessionFactory =config.buildSessionFactory();
+        try (SessionFactory sessionFactory = config.buildSessionFactory();
              Session session = sessionFactory.getCurrentSession()) {
 
             logger.info("Session created");
             try {
 
-                Connection.Response response = Jsoup.connect("https://www.tcmb.gov.tr/kurlar/today.xml").execute();
+                Connection.Response response = Jsoup.connect("https://www.tcmb.gov.tr/kurlar/today.xml").method(Connection.Method.HEAD).execute();
 
                 String lastModifiedDate = response.headers().get("Last-Modified");
 
@@ -51,8 +51,7 @@ public class Main {
                 logger.info("Transaction Started");
 
                 if (HelperMethods.checkFileUpdate(fileName, session)) {
-                    logger.info("No changes found in the document. Last change document {} ",fileName);
-                    return;
+                    logger.info("No changes found in the document. Last change document {} ", fileName);
                 }
 
 
@@ -101,13 +100,11 @@ public class Main {
 
                 session.getTransaction().commit();
                 logger.info("Transaction committed");
-                recordFile(session, fileName);
-            } catch (IOException e) {
-                throw new RuntimeException(e);
-            } finally {
+                recordFile(fileName);
                 session.close();
                 sessionFactory.close();
-                logger.info("Session closed.");
+            } catch (IOException e) {
+                throw new RuntimeException(e);
             }
         } catch (Exception e) {
             logger.error("Something went wrong.", e);
@@ -115,9 +112,16 @@ public class Main {
 
     }
 
-    private static void recordFile(Session session, String fileName) {
-        try {
-            List<ExchangeRate> exchangeRates = session.createQuery("FROM ExchangeRate", ExchangeRate.class).list();
+    private static void recordFile(String fileName) {
+        Configuration config = new Configuration();
+        config.configure();
+
+        try (SessionFactory sessionFactory = config.buildSessionFactory();
+             Session session = sessionFactory.getCurrentSession()) {
+
+            session.beginTransaction();
+            logger.info("Session created");
+            List<ExchangeRate> exchangeRates = session.createQuery("select e FROM ExchangeRate as e", ExchangeRate.class).list();
             logger.info("Get All ExchangeRates from DB");
 
             DocumentBuilderFactory docFactory = DocumentBuilderFactory.newInstance();
@@ -152,18 +156,31 @@ public class Main {
                 tarihDateElement.appendChild(currencyElement);
             }
 
-            TransformerFactory transformerFactory = TransformerFactory.newInstance();
-            Transformer transformer = transformerFactory.newTransformer();
-            DOMSource source = new DOMSource(xmlDoc);
-            FileWriter writer = new FileWriter(fileName);
-            transformer.transform(source, new StreamResult(writer));
+            try (FileOutputStream output =
+                         new FileOutputStream(fileName + ".xml")) {
+                writeXml(xmlDoc, output);
+                logger.info("XML file created: " + "_32Bit/" + fileName + ".xml");
+            } catch (IOException e) {
+                logger.error("Something went wrong.", e);
+            }
 
-            logger.info("XML file created: "+fileName);
+            session.close();
         } catch (Exception e) {
             logger.error("Something went wrong.", e);
-        } finally {
-            session.close();
         }
+    }
+
+    private static void writeXml(org.w3c.dom.Document doc,
+                                 OutputStream output)
+            throws TransformerException {
+
+        TransformerFactory transformerFactory = TransformerFactory.newInstance();
+        Transformer transformer = transformerFactory.newTransformer();
+        DOMSource source = new DOMSource(doc);
+        StreamResult result = new StreamResult(output);
+
+        transformer.transform(source, result);
+
     }
 
 }
