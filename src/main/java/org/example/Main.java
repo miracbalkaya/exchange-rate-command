@@ -42,7 +42,7 @@ public class Main {
             logger.info("Session created");
             try {
 
-                Connection.Response response = Jsoup.connect("https://www.tcmb.gov.tr/kurlar/today.xml").method(Connection.Method.HEAD).execute();
+                Connection.Response response = Jsoup.connect("https://www.tcmb.gov.tr/kurlar/today.xml").execute();
 
                 String lastModifiedDate = response.headers().get("Last-Modified");
 
