@@ -52,6 +52,7 @@ public class Main {
 
                 if (HelperMethods.checkFileUpdate(fileName, session)) {
                     logger.info("No changes found in the document. Last change document {} ", fileName);
+                    return;
                 }
 
 
