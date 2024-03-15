@@ -128,9 +128,8 @@ public class Main {
             DocumentBuilder docBuilder = docFactory.newDocumentBuilder();
             org.w3c.dom.Document xmlDoc = docBuilder.newDocument();
 
-            org.w3c.dom.Element tarihDateElement = xmlDoc.createElement("Tarih_Date");
-            tarihDateElement.setAttribute("Tarih", "04.03.2024");
-            tarihDateElement.setAttribute("Date", "03/04/2024");
+            org.w3c.dom.Element tarihDateElement = xmlDoc.createElement("Data_Date");
+            tarihDateElement.setAttribute("Date", LocalDateTime.now().toString());
             tarihDateElement.setAttribute("Bulten_No", "2024/45");
             xmlDoc.appendChild(tarihDateElement);
 
