@@ -104,6 +104,7 @@ public class Main {
                 session.close();
                 sessionFactory.close();
             } catch (IOException e) {
+                session.getTransaction().rollback();
                 throw new RuntimeException(e);
             }
         } catch (Exception e) {
